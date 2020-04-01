@@ -29,7 +29,7 @@ You can read the [JsonNode](https://fasterxml.github.io/jackson-databind/javadoc
 
 
 
-###How to run the app?
+### How to run the app?
 The demo uses [Confluent cloud](https://confluent.cloud/)
 
 You can build the jar using `./gradlew clean build`

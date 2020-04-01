@@ -28,7 +28,16 @@ Since your parsed json(JsonNode) is loaded into a variable `$`, your expression 
 You can read the [JsonNode](https://fasterxml.github.io/jackson-databind/javadoc/2.7/com/fasterxml/jackson/databind/JsonNode.html) API documentation on how to use this object
 
 
+
+###How to run the app?
 The demo uses [Confluent cloud](https://confluent.cloud/)
+
+You can build the jar using `./gradlew clean build`
+
+You can then export the below mentioned env variables.
+
+Then run the jar using `java -jar build\libs\expressionchecker-1.0-SNAPSHOT.jar`
+
 
 | Environment Variable  | Description |
 | --- |  --- |

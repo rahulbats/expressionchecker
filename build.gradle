@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'com.confluent'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'org.apache.kafka:kafka-streams:2.3.0'
+    // https://mvnrepository.com/artifact/janino/janino
+    // https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path
+    // https://mvnrepository.com/artifact/janino/janino
+    compile group: 'janino', name: 'janino', version: '2.5.10'
+
+}
